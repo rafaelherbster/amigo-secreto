@@ -31,3 +31,11 @@ Este é um projeto simples de Amigo Secreto, onde você pode adicionar amigos à
 1. Clone este repositório para sua máquina local:
    ```bash
    git clone https://github.com/seu-usuario/amigo-secreto.git
+
+## Como Rodar o Projeto online com Vercel:
+
+1. Acesse o link:
+   https://amigo-secreto-alpha-ten.vercel.app
+
+
+   
