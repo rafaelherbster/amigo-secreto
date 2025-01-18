@@ -9,6 +9,7 @@ function adicionarAmigo() {
         listaAmigos.push(amigo);
         console.log(listaAmigos);
         limparCampo();
+        mostrarAmigos();
     }
   
 }
@@ -18,3 +19,14 @@ function limparCampo() {
     amigo.value = "";
     
 }
+
+function mostrarAmigos() {
+    let userLista = document.getElementById("listaAmigos");
+    userLista.innerHTML = "";
+    listaAmigos.forEach(amigo =>{
+        let elemento = document.createElement("li");
+        elemento.textContent = amigo;
+        userLista.appendChild(elemento);
+    });
+}
+
